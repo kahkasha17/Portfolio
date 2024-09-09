@@ -3,6 +3,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faInstagram, faTwitter, faGit,faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { useRouter } from 'next/navigation'
+import {motion} from 'framer-motion';
+
 
 
 
@@ -12,7 +14,7 @@ const ContactMe = () => {
   return (
     <div id="ContactMe">
       <div className="container-fluid bg-dark text-light mt-5">
-        <div className="heading py-4 px-4  border-bottom"style={{ width:""}}>
+        <div className="heading py-4 px-4  border-bottom">
             <div className="row  ">
                 <div className="col mx-auto">
                 <h1 style={{color:"orange"}}><b><i>Lets Connect...</i> </b></h1>
@@ -36,9 +38,7 @@ const ContactMe = () => {
                     <ul style={{listStyle:"none",padding:"0px", margin:"0px"}}>
                         <li>+91 8800297781</li>
                         <li>codewithkahkasha1711@gmail.com</li>
-                        <li>galaxy.portfolio.com</li>
-                        
-                      
+                        <li>galaxy.portfolio.com</li>                
                         
                     </ul>
                 </div>

@@ -1,17 +1,13 @@
 'use client'
 import React from "react";
-import Button from '../Button/page';
-import Link from "next/link";
-
+import Button from '@/Components/Button';
+import {motion} from 'framer-motion';
 
 const Home = () => {
   const link="ContactMe";
-  return (
-
-    
+  return ( 
     <>
-      
-      
+          
       <div className="container content  " id="Home">
           <div className="text-center my-3 ">
           <h1 className="fw-bold">Hello</h1>
@@ -27,7 +23,7 @@ const Home = () => {
         
         <div className="container-fluid">
           <div className="row">
-            <div className="col">
+            <div className="text-center col-md-4 col-sm-12">
               <h3>
                 <span className="" style={{ fontSize: "100px" }}>
                   &ldquo;
@@ -38,8 +34,18 @@ const Home = () => {
               </h3>
             </div>
 
-            <div className="col text-center  ">
-            <img src="Alien.png" style={{width:"200px"}} alt="image not found" />
+            <div className="text-center col-md-4 col-sm-12 ">
+            <motion.img 
+            initial={{x:-50, opacity:2}}
+            whileInView={{x:0,opacity:1}}
+            transition={{
+              delay:0,
+              x:{type:"spring",stiffness:66},
+              opacity:{duration:1},
+              ease:"easeIn,",
+              duration:1
+            }}                   
+            src="Alien.png" style={{width:"200px"}} alt="image not found" />
             <div className="div text-center  px-2 ">
           <Button name="Resume" link="resume.pdf" />
           <Button name="Hire Me" link="#ContactMe"/> 
@@ -48,7 +54,7 @@ const Home = () => {
             </div>
 
 
-            <div className="col">
+            <div className="text-center col-md-4 col-sm-12">
               <h3>
                 <span className="" style={{ fontSize: "100px" }}>
                   &ldquo;

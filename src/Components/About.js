@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
-import Button from '../Button/page';
-import Heading from '../Heading/page';
+import Button from '@/Components/Button';
+import Heading from '@/Components/Heading';
+import {motion} from 'framer-motion';
 
 
 const About = () => {
@@ -11,7 +12,18 @@ const About = () => {
       <div className="row">
         
         <div className="col-md-5 col-sm-12 text-center mx-auto ">
-          <img src="logo-black.svg" alt="" style={{width:"90%"}}/>
+          <motion.img       
+         
+          whileHover={{
+            rotate: [0, 0, 270, 270, 0],
+            borderRadius: ["20%", "20%", "40%", "40%", "20%"],
+          }}
+          whileTap={{rotate: [0, 0, 270, 270, 0],
+            borderRadius: ["20%", "20%", "40%", "40%", "20%"],}}
+          whileInView={{rotate: [0, 0, 270, 270, 0],
+            borderRadius: ["20%", "20%", "40%", "40%", "20%"],}}  
+          
+          src="logo-black.svg" alt="/" style={{width:"90%"}}/>
         </div>
         <div className="col-md-7 col-sm-12 text-center mx-auto px-auto " >
 
@@ -29,7 +41,8 @@ const About = () => {
           
         </div>
         </div>
-      </div></div>
+      </div>
+      </div>
     </div>
   )
 }

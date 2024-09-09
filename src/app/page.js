@@ -1,28 +1,30 @@
 "use client"
-import About from './About/page';
-import ContactMe from './ContactMe/page';
-import Home from './Home/page';
-
-import Navbar from './Navbar/page';
-import Services from './Services/page';
+import About from '@/Components/About';
+import ContactMe from '@/Components/ContactMe';
+import Home from '@/Components/Home';
+import Navbar from '@/Components/Navbar';
+import Services from '@/Components/Services';
+import Projects from '@/Components/Projects';
+import "bootstrap/dist/css/bootstrap.css";
 import React, { useEffect } from 'react'
-import Projects from './Projects/page';
+
+
 
 
 const page = () => {
-  useEffect(()=>{
-    import("bootstrap/dist/js/bootstrap");
+    useEffect(()=>{
+    require("bootstrap/dist/js/bootstrap");
 },[])
+
+
   return (
     <div >
-
-
       <Navbar/>      
-      <Home id="Home"/>
-      <About id="About"/>
-      <Projects id="Projects"/>
-      <Services id="Services"/>
-      <ContactMe id="ContactMe"/>
+      <Home />
+      <About/>
+      <Projects />
+      <Services />
+      <ContactMe />
       </div>
       
   )

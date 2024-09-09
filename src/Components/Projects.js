@@ -1,7 +1,11 @@
 "use client"
 import React, { useState } from "react";
-import Button from '../Button/page';
-import Heading from '../Heading/page';
+import Button from '@/Components/Button';
+import Heading from '@/Components/Heading';
+import {motion} from 'framer-motion';
+import {fadeIn} from '../variants'
+
+
 
 
 const Projects = () => {
@@ -27,24 +31,22 @@ const imageArray=[{
       title:"Guess The No Game- Console Based Game",
       disc:"It is a  console based user defined game.Where user have the three chances to choose between the 1 to 100 any no if he guess the right within the 3 chances he will win but if not computer will win the game",
       TechUsed:"",
-      Url:""},
-      // {
-      //   id:4,
-      //   imageUrl:"TextCon.png",
-      //   title:"Text Converter-Online String Operations System",
-      //   disc:"It is a React Based Application based on Component based designing.It contains lots of features but the main feature which it makes it different from other Text converter program is that its very user friendly and have minimal options for avoid distractions.",
-      //   TechUsed:"",
-      //   Url:"ff"
-      // }
+      Url:"https://github.com/kahkasha17/Virtual-Kaksha.git"},
+    
       ]
 const  [images,setImages]=useState(imageArray);
   return (
     <div id="Projects">
       <div className="container">
+                 
         <Heading First="My" Second="Projects" Third=" !" />
         <div className="row">
           {images.map((e)=>(        
-          <div className="col-md-4 col-xs-12 my-3  " key={e.Url} >
+          <motion.div
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            
+          className="col-md-4 col-xs-12 my-3  " key={e.Url} >
             <div className="card shadow-lg p-3 mb-5 bg-body rounded">
               <img
                 src={e.imageUrl}
@@ -57,10 +59,10 @@ const  [images,setImages]=useState(imageArray);
                 <p className="card-text">
                   {e.disc.slice(0,90)}...
                 </p>
-                <Button name="Know More" link={e.Url} className="" />
+                <Button name="Know More" link={e.Url} />
               </div>
             </div>
-          </div> ))}
+          </motion.div> ))}
         
         </div>
       </div>

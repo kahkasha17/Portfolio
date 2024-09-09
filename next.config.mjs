@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+reactStrictMode:true,
+distDir: 'build',
+
+};
+
 
 export default nextConfig;

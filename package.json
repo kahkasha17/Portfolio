@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,11 +16,17 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.1",
     "bootstrap": "^5.3.3",
-    "next": "14.2.3",
-    "react": "^18",
+    "framer-motion": "^11.5.4",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^18",
-    "react-router-dom": "^6.23.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
     "vite": "^5.2.10"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "gh-pages": "^6.1.1"
   }
 }
