@@ -1,0 +1,22 @@
+#Navbar a:hover {
+    border-radius: 25px;
+    background-color:orange;
+  }
+  #NavItem
+  {
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  
+
+  @media (max-width: 1050px) {
+    
+  #NavItem
+  {
+    
+    border-radius: 25px;
+    width: 95vw;
+  }
+  
+  
+}
