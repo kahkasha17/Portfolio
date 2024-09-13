@@ -40,7 +40,7 @@ const Services = () => {
           {serviceData.map((e) => (
             <motion.div
             whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.9 }}
+           // whileTap={{ scale: 0.9 }}
           
             
             className="col-md-4 col-xs-12 my-3 mx-auto" key={e.id}>

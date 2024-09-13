@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div id='Navbar'>
-      <nav className="navbar navbar-expand-lg navbar-dark my-2 px-2 py-2  "id='NavItem' style={{backgroundImage:"url('galaxy.jpg')", backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+    <div id='Navbar '>
+      <nav className="navbar  navbar-expand-lg navbar-dark  my-2  px-2 py-2  "id='NavItem' style={{backgroundImage:"url('galaxy.jpg')", backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
   <div className="container-fluid " >
    
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

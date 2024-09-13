@@ -11,8 +11,8 @@ const Button = (props) => {
     <>
    
       <motion.button
-      whileHover={{ scale: 1.2 }}
-      whileTap={{ scale: 0.9 }}
+       whileHover={{ scale: 1.2 }}
+      // whileTap={{ scale: 0.9 }}
       
       
       onClick={()=>router.push(props.link)}  className="btn btn-outline-primary btn-light rounded-pill border-dark px-4 fw-bold mx-2">

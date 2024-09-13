@@ -42,12 +42,14 @@ const  [images,setImages]=useState(imageArray);
         <Heading First="My" Second="Projects" Third=" !" />
         <div className="row">
           {images.map((e)=>(        
-          <motion.div
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.9 }}
+          <div
             
           className="col-md-4 col-xs-12 my-3  " key={e.Url} >
-            <div className="card shadow-lg p-3 mb-5 bg-body rounded">
+            <motion.div
+             whileHover={{ scale: 1.2 }}
+           //  whileTap={{ scale: 1.0 }}
+            
+            className="card shadow-lg p-3 mb-5 bg-body rounded">
               <img
                 src={e.imageUrl}
                 className="card-img-top"
@@ -61,8 +63,8 @@ const  [images,setImages]=useState(imageArray);
                 </p>
                 <Button name="Know More" link={e.Url} />
               </div>
-            </div>
-          </motion.div> ))}
+            </motion.div>
+          </div> ))}
         
         </div>
       </div>
