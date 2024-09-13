@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React from "react";
-import Button from '@/Components/Button';
-import Heading from '@/Components/Heading';
-import {motion} from 'framer-motion';
+import Button from "@/Components/Button";
+import Heading from "@/Components/Heading";
+import { motion } from "framer-motion";
 
 const Services = () => {
   const serviceData = [
@@ -39,11 +39,10 @@ const Services = () => {
         <div className="row">
           {serviceData.map((e) => (
             <motion.div
-            whileHover={{ scale: 1.2 }}
-           // whileTap={{ scale: 0.9 }}
-          
-            
-            className="col-md-4 col-xs-12 my-3 mx-auto" key={e.id}>
+              whileHover={{ scale: 1.2 }}
+              className="col-md-4 col-xs-12 my-3 mx-auto"
+              key={e.id}
+            >
               <div className="card shadow-lg p-3 mb-5 bg-body rounded">
                 <img
                   src={e.ImageUrl}
@@ -54,7 +53,7 @@ const Services = () => {
                 <div className="card-body">
                   <h5 className="card-title">{e.Title}</h5>
                   <p className="card-text">{e.disc}</p>
-                  <Button name="Hire Me" link="#ContactMe"/>
+                  <Button name="Hire Me" link="#ContactMe" />
                 </div>
               </div>
             </motion.div>
