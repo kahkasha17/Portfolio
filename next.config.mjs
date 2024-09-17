@@ -5,7 +5,7 @@ distDir: 'out',
 output:'export',
 basePath: '/Portfolio', // Replace with your repository name
 assetPrefix: '/Portfolio', // Prefix for static assets
-
+trailingSlash: true,
 };
 
 
