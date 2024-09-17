@@ -8,7 +8,7 @@ const Projects = () => {
   const imageArray = [
     {
       id: 1,
-      imageUrl: "/images/image-020.jpg",
+      imageUrl: "image-020.jpg",
       title: "Foodie Bandhu- A Restuarant Management System",
       disc: "It is a web project based on an online restaurant management system.  It follows MVC design pattern. It contains lots of features but the main feature which it makes it different from other management system is that it provides a user friendly interface, 24*7 customer support, alone eater special feature ,and so on.",
       TechUsed:
@@ -18,7 +18,7 @@ const Projects = () => {
 
     {
       id: 2,
-      imageUrl: "/images/vkimage.png",
+      imageUrl: "vkimage.png",
       title: "Virtual Kakasha - Online Education System",
       disc: "It is a web project based on online education system. It follows Factory design pattern. It contains lots of features but the main feature which it makes it different from other education system is that it provides a digital library, live classes, and assignments option in one platform.",
       TechUsed: "Jsp, Servlet, Html5, Css3, Javascript, Bootstrap, MySql .",
@@ -27,7 +27,7 @@ const Projects = () => {
 
     {
       id: 3,
-      imageUrl: "/images/Guessdno.png",
+      imageUrl: "Guessdno.png",
       title: "Guess The No Game- Console Based Game",
       disc: "It is a  console based user defined game.Where user have the three chances to choose between the 1 to 100 any no if he guess the right within the 3 chances he will win but if not computer will win the game",
       TechUsed: "",
