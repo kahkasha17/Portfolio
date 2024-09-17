@@ -3,7 +3,7 @@ import React from 'react'
 import Button from '@/Components/Button';
 import Heading from '@/Components/Heading';
 import {motion} from 'framer-motion';
-import Image from 'next/image';
+
 
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
       <div className="row">
         
         <div className="col-md-5 col-sm-12 text-center mx-auto ">
-          <motion.Image       
+          <motion.img      
          
           whileHover={{
             rotate: [0, 0, 270, 270, 0],
@@ -24,7 +24,7 @@ const About = () => {
           whileInView={{rotate: [0, 0, 270, 270, 0],
             borderRadius: ["20%", "20%", "40%", "40%", "20%"],}}  
           
-          src="/public/images/logo-black.svg" alt="Galaxy Logo" style={{width:"90%"}}/>
+          src="logo-black.svg" alt="Galaxy Logo" style={{width:"90%"}}/>
         </div>
         <div className="col-md-7 col-sm-12 text-center mx-auto px-auto " >
 
