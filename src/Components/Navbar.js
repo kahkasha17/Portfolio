@@ -10,7 +10,7 @@ const Navbar = () => {
         className="navbar  navbar-expand-lg navbar-dark  my-2  px-2 py-2  "
         id="NavItem"
         style={{
-          backgroundImage: "url('/images/galaxy.jpg')",
+          backgroundImage: "url('galaxy.jpg')",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
