@@ -44,7 +44,7 @@ const Home = () => {
                   ease: "easeIn,",
                   duration: 1,
                 }}
-                src="/public/images/Alien.png"
+                src="Alien.png"
                 style={{ width: "200px" }}
                 alt="image not found"
               />
