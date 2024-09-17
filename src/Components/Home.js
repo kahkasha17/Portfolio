@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className="fw-bold">Hello</h1>
           <h1 className="fw-bold">
             I'm{" "}
-            <span className="" style={{ color: "orange" }}>
+            <span  style={{ color: "orange" }}>
               Kahkasha
             </span>
           </h1>
@@ -24,7 +24,7 @@ const Home = () => {
           <div className="row">
             <div className="text-center col-md-4 col-sm-12">
               <h3>
-                <span className="" style={{ fontSize: "100px" }}>
+                <span style={{ fontSize: "100px" }}>
                   &ldquo;
                 </span>
                 <br></br>
@@ -44,7 +44,7 @@ const Home = () => {
                   ease: "easeIn,",
                   duration: 1,
                 }}
-                src="/images/Alien.png"
+                src="/public/images/Alien.png"
                 style={{ width: "200px" }}
                 alt="image not found"
               />
