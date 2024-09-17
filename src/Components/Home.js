@@ -3,6 +3,7 @@ import React from "react";
 import Button from "@/Components/Button";
 import { motion } from "framer-motion";
 
+
 const Home = () => {
   const link = "ContactMe";
   return (
@@ -43,7 +44,7 @@ const Home = () => {
                   ease: "easeIn,",
                   duration: 1,
                 }}
-                src="Alien.png"
+                src="/images/Alien.png"
                 style={{ width: "200px" }}
                 alt="image not found"
               />

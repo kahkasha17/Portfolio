@@ -1,5 +1,8 @@
-.col:hover
-{
-    background-color: yellow;
-
-}
+.icon {
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .icon:hover {
+    transform: scale(1.4); /* Scale up by 20% */
+  }

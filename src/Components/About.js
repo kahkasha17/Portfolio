@@ -23,7 +23,7 @@ const About = () => {
           whileInView={{rotate: [0, 0, 270, 270, 0],
             borderRadius: ["20%", "20%", "40%", "40%", "20%"],}}  
           
-          src="logo-black.svg" alt="/" style={{width:"90%"}}/>
+          src="/images/logo-black.svg" alt="/" style={{width:"90%"}}/>
         </div>
         <div className="col-md-7 col-sm-12 text-center mx-auto px-auto " >
 
