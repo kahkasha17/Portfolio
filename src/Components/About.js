@@ -3,6 +3,7 @@ import React from 'react'
 import Button from '@/Components/Button';
 import Heading from '@/Components/Heading';
 import {motion} from 'framer-motion';
+import Image from 'next/image';
 
 
 const About = () => {
