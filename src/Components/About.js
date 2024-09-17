@@ -13,7 +13,7 @@ const About = () => {
       <div className="row">
         
         <div className="col-md-5 col-sm-12 text-center mx-auto ">
-          <motion.img       
+          <motion.Image       
          
           whileHover={{
             rotate: [0, 0, 270, 270, 0],
