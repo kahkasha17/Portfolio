@@ -12,7 +12,7 @@ const Services = () => {
       Price: "#",
       disc: "Creating stunning and functional landing page design that perfectly fit on your brand's needs. Our services blend cretivity with user experiance to deliver captivating online experiances",
       ImageUrl: "landingpage.png",
-      url: "#",
+      url: "#ContactMe",
     },
     {
       id: "2",
@@ -20,7 +20,7 @@ const Services = () => {
       Price: "#",
       disc: "Creating stunning and functional websites tailored to your brand's needs. Our web design services blend cretivity with user experiance to deliver captivating online experiances",
       ImageUrl: "webdesign.jfif",
-      url: "#",
+      url: "#ContactMe",
     },
     {
       id: "3",
@@ -28,7 +28,7 @@ const Services = () => {
       Price: "#",
       disc: "Creating stunning and functional social design that perfectly fit on your brand's needs. Our services blend cretivity with user experiance to deliver captivating online experiances",
       ImageUrl: "socialdesign.jpg",
-      url: "#",
+      url: "#ContactMe",
     },
   ];
 
