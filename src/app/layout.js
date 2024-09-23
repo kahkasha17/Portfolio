@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         sizes="16x16"
         href="/favicon-16x16.png"
       />
-      {/* <link rel="manifest" href="/manifest.json" /> */}
+      <link rel="manifest" href="/manifest.json" />
 
       <meta
         name="keywords"
