@@ -31,7 +31,7 @@ const Projects = () => {
       title: "Guess The No Game- Console Based Game",
       disc: "It is a  console based user defined game.Where user have the three chances to choose between the 1 to 100 any no if he guess the right within the 3 chances he will win but if not computer will win the game",
       TechUsed: "",
-      Url: "https://github.com/kahkasha17/Virtual-Kaksha.git",
+      Url: "https://github.com/kahkasha17/Portfolio.git",
     },
   ];
   const [images, setImages] = useState(imageArray);
