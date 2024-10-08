@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       imageUrl: "image-020.jpg",
       title: "Foodie Bandhu- A Restuarant Management System",
-      disc: "It is a web project based on an online restaurant management system.  It follows MVC design pattern. It contains lots of features but the main feature which it makes it different from other management system is that it provides a user friendly interface, 24*7 customer support, alone eater special feature ,and so on.",
+      disc: "It is a web project based on an online restaurant management system.  It follows MVC design pattern. It contains lots of features but the main feature which it makes it different from other's is that it provides a user friendly interface, 24*7 customer support,and so on.",
       TechUsed:
         "Spring Orm, Spring MVC, Html5, Jsp, Css3, Javascript, Bootstrap, MySql.",
       Url: "https://github.com/kahkasha17/Foodie-Bandhu.git",
@@ -20,7 +20,7 @@ const Projects = () => {
       id: 2,
       imageUrl: "vkimage.png",
       title: "Virtual Kakasha - Online Education System",
-      disc: "It is a web project based on online education system. It follows Factory design pattern. It contains lots of features but the main feature which it makes it different from other education system is that it provides a digital library, live classes, and assignments option in one platform.",
+      disc: "It is a web project based on online Education Management System. It follows Factory design pattern. It contains lots of features but the main feature which it makes it different from other's is that it provides a digital library, live classes, and assignments option in one platform.",
       TechUsed: "Jsp, Servlet, Html5, Css3, Javascript, Bootstrap, MySql .",
       Url: "https://github.com/kahkasha17/Virtual-Kaksha.git",
     },
@@ -42,9 +42,10 @@ const Projects = () => {
         <div className="row">
           {images.map((e) => (
             <div className="col-md-4 col-xs-12 my-3  " key={e.Url}>
-              <motion.div
-                whileHover={{ scale: 1.2 }}
+              <div
+                
                 className="card shadow-lg p-3 mb-5 bg-body rounded"
+                style={{ height: "75vh" }}
               >
                 <img
                   src={e.imageUrl}
@@ -54,10 +55,10 @@ const Projects = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title">{e.title}</h5>
-                  <p className="card-text">{e.disc.slice(0, 90)}...</p>
+                  <p className="card-text">{e.disc}</p>
                   <Button name="Know More" link={e.Url} />
                 </div>
-              </motion.div>
+              </div>
             </div>
           ))}
         </div>

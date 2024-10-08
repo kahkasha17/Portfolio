@@ -7,9 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export":"next export" ,
+    "export": "next export",
     "deploy": "npm run build  && gh-pages -d out"
-
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
@@ -20,7 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.2.1",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.5.4",
-    "next": "^14.2.3",
+    "next": "^14.2.14",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",

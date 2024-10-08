@@ -18,7 +18,7 @@ const Services = () => {
       id: "2",
       Title: "Web Design",
       Price: "#",
-      disc: "Creating stunning and functional websites tailored to your brand's needs. Our web design services blend cretivity with user experiance to deliver captivating online experiances",
+      disc: "Creating stunning and functional websites tailored to your brand's needs.Our web design services blend cretivity with user experiance to deliver captivating online experiances",
       ImageUrl: "webdesign.jfif",
       url: "#ContactMe",
     },
@@ -38,12 +38,12 @@ const Services = () => {
         <Heading First="My" Second="Services" Third=" !" />
         <div className="row">
           {serviceData.map((e) => (
-            <motion.div
-              whileHover={{ scale: 1.2 }}
+            <div
+             
               className="col-md-4 col-xs-12 my-3 mx-auto"
               key={e.id}
             >
-              <div className="card shadow-lg p-3 mb-5 bg-body rounded">
+              <div className="card shadow-lg p-3 mb-5 bg-body rounded" style={{ height: "75vh"}}>
                 <img
                   src={e.ImageUrl}
                   className="card-img-top"
@@ -56,7 +56,7 @@ const Services = () => {
                   <Button name="Hire Me" link="#ContactMe" />
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
